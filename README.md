@@ -12,7 +12,7 @@ There are many functions with simple antiderivatives. We can solve them literall
 ### Power Functions
 
 Consider a function of the form 
-    $$f(x) = x^k, \;\;\;\;\; k \neq -1,$$ 
+    $$f(x) = x^k, \quad k \neq -1,$$ 
 its anti-derivative is 
     $$F(x) = \int f(x) dx = \frac{1}{k+1} x^{k+1} + C,$$
 where $C$ is a constant.
@@ -102,7 +102,7 @@ $$\int x \sin(x) dx$$
 
 Let $u = x$, $v = \sin(x)$. To follow the formula, we still need to calculate the derivative of $u$ and integral of $v$.
 
-$$u'(x) = 1, \;\;\;\;\;\; \int v(x) dx = -\cos(x) $$
+$$u'(x) = 1, \quad \int v(x) dx = -\cos(x) $$
 
 Then we can transform the original problem to the following
 
